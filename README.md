@@ -2,11 +2,11 @@
 
 Học kỳ 3, Năm học: 2025-2026
 
-**Họ tên**: ...
+**Họ tên**: Nguyễn Nhựt Khánh
 
-**MSSV**: ...
+**MSSV**: DC25V7K014
 
-**Lớp HP**: ...
+**Lớp HP**: CT275DC01
 
 
 
