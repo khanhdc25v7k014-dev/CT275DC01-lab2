@@ -2,14 +2,15 @@
 
 function render_page_footer(bool $is_loggedin = false): void
 {
-?>
+    ?>
     <!-- END CHANGEABLE CONTENT. -->
     <?php if ((is_administrator() && (basename($_SERVER['PHP_SELF']) !== 'logout.php')) || $is_loggedin): ?>
         <hr>
         <p>
             <a href="add_quote.php">Thêm Trích dẫn</a> <->
                 <a href="view_quotes.php">Xem tất cả Trích dẫn</a> <->
-                    <a href="logout.php">Đăng xuất</a>
+                    <a href="search_quote.php?favorite=true">Tìm kiếm</a><->
+                        <a href="logout.php">Đăng xuất</a>
         </p>
     <?php else: ?>
         <hr>
@@ -20,5 +21,5 @@ function render_page_footer(bool $is_loggedin = false): void
     </body>
 
     </html>
-<?php
+    <?php
 }
